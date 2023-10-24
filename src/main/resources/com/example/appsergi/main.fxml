@@ -2,44 +2,52 @@
 
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.Menu?>
-<?import javafx.scene.control.MenuBar?>
-<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="571.0" prefWidth="667.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appsergi.Main">
+<AnchorPane prefHeight="968.0" prefWidth="1375.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appsergi.Main">
    <children>
-      <Label fx:id="textoTxt" layoutX="282.0" layoutY="329.0" text="Label" />
-      <MenuBar layoutY="1.0">
-        <menus>
-          <Menu mnemonicParsing="false" text="File">
-            <items>
-              <MenuItem mnemonicParsing="false" text="Close" />
-            </items>
-          </Menu>
-          <Menu mnemonicParsing="false" text="Edit">
-            <items>
-              <MenuItem mnemonicParsing="false" text="Delete" />
-            </items>
-          </Menu>
-          <Menu mnemonicParsing="false" text="Help">
-            <items>
-              <MenuItem mnemonicParsing="false" text="About" />
-            </items>
-          </Menu>
-        </menus>
-      </MenuBar>
-      <ImageView disable="true" fitHeight="150.0" fitWidth="200.0" layoutX="423.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView disable="true" fitHeight="150.0" fitWidth="200.0" layoutX="1218.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../../Documentos/trabajoSergi/ideai_logo.png" />
+            <Image url="@../../../images/ideai_logo.png" />
          </image>
       </ImageView>
-      <Button fx:id="buttonTxt2" layoutX="145.0" layoutY="204.0" mnemonicParsing="false" onAction="#click" prefHeight="24.0" prefWidth="174.0" style="-fx-background-color: red;" text="Perro">
+      <Button fx:id="importButton" layoutX="596.0" layoutY="226.0" mnemonicParsing="false" onAction="#importCSV" prefHeight="24.0" prefWidth="174.0" style="-fx-background-color: red;" text="Import CSV">
          <cursor>
             <Cursor fx:constant="DEFAULT" />
          </cursor></Button>
+      <ImageView disable="true" fitHeight="150.0" fitWidth="200.0" layoutX="583.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/bicing_logo.png" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/cidai_logo.png" />
+         </image>
+      </ImageView>
+      <ChoiceBox fx:id="barrioChoice" layoutX="259.0" layoutY="248.0" prefWidth="150.0" />
+      <Label layoutX="314.0" layoutY="228.0" text="Barrio" />
+      <ChoiceBox fx:id="horarioChoice" layoutX="931.0" layoutY="248.0" prefWidth="150.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </ChoiceBox>
+      <Label layoutX="960.0" layoutY="228.0" text="Franja horaria" />
+      <ImageView fx:id="dayGraph" fitHeight="317.0" fitWidth="431.0" layoutX="172.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/320px-Complete_graph_K7.svg.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="meanGraph" fitHeight="317.0" fitWidth="431.0" layoutX="844.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/320px-Complete_graph_K7.svg.png" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="infoText" editable="false" layoutX="21.0" layoutY="681.0" prefHeight="273.0" prefWidth="1324.0" />
    </children>
 </AnchorPane>
