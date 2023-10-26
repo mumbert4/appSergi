@@ -1,4 +1,4 @@
-module com.example.appsergi {
+module sceneController {
     requires javafx.controls;
     requires javafx.fxml;
 
@@ -6,6 +6,8 @@ module com.example.appsergi {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
 
-    opens com.example.appsergi to javafx.fxml;
-    exports com.example.appsergi;
+    opens sceneController to javafx.fxml;
+    opens controllers to javafx.fxml;
+    exports controllers;
+    exports sceneController;
 }

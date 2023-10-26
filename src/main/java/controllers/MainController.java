@@ -1,4 +1,4 @@
-package com.example.appsergi;
+package controllers;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -6,15 +6,15 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.stage.FileChooser;
-import javafx.stage.Stage;
+import sceneController.Main;
 
 import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class Main implements Initializable {
+public class MainController implements Initializable {
+
 
     @FXML
     private ChoiceBox<String> barrioChoice;
