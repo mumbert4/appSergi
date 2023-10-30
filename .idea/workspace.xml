@@ -6,15 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="e78c309c-4d03-423a-b9e3-545a48fba31c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/appsergi/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/appsergi/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/appsergi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/appsergi/grafico1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/appsergi/grafico2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/appsergi/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/controllers/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/appsergi/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/controllers/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/ResultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/ResultController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sceneController/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sceneController/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sceneController/SceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sceneController/SceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/controllers/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/controllers/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/controllers/result.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/controllers/result.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -18,9 +18,11 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
 
-        SceneController.getInstance().stage=stage;
+        SceneController.getInstance().mainStage=stage;
         stage.setTitle("i-ViSta4Bike");
         stage.setScene(SceneController.instance.main);
+        stage.setWidth(1375);
+        stage.setHeight(970);
         stage.show();
     }
 

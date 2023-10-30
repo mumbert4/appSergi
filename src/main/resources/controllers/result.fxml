@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="controllers.ResultController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="968.0" prefWidth="1375.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ResultController">
+   <children>
+      <ImageView fitHeight="118.0" fitWidth="472.0" layoutX="29.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Marca_UPC_IDEAI_BLAU.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="988.0" layoutY="59.0" text="i-ViSta4bike" textFill="#169ccd">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="192.0" layoutY="233.0" text="Expected Behaviour">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="890.0" layoutY="220.0" text="Observed Behaviour">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="expectedGraph" fitHeight="392.0" fitWidth="551.0" layoutX="29.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="observedGraph" fitHeight="392.0" fitWidth="551.0" layoutX="713.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="title" layoutX="544.0" layoutY="135.0" prefHeight="16.0" prefWidth="204.0" text="Label" />
+   </children>
 </AnchorPane>
