@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
 
-
-<AnchorPane prefHeight="968.0" prefWidth="1375.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ResultController">
+<AnchorPane prefHeight="1125.0" prefWidth="1375.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ResultController">
    <children>
       <ImageView fitHeight="118.0" fitWidth="472.0" layoutX="29.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -19,7 +20,7 @@
             <Font name="System Bold" size="37.0" />
          </font>
       </Label>
-      <Label layoutX="192.0" layoutY="233.0" text="Expected Behaviour">
+      <Label layoutX="192.0" layoutY="220.0" text="Expected Behaviour">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
@@ -32,5 +33,7 @@
       <ImageView fx:id="expectedGraph" fitHeight="392.0" fitWidth="551.0" layoutX="29.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true" />
       <ImageView fx:id="observedGraph" fitHeight="392.0" fitWidth="551.0" layoutX="713.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true" />
       <Label fx:id="title" layoutX="544.0" layoutY="135.0" prefHeight="16.0" prefWidth="204.0" text="Label" />
+      <WebView fx:id="infoText" layoutX="29.0" layoutY="727.0" prefHeight="368.0" prefWidth="1330.0" />
+      <Button layoutX="615.0" layoutY="675.0" mnemonicParsing="false" onAction="#downloadPDF" text="Download PDF" />
    </children>
 </AnchorPane>

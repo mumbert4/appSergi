@@ -13,7 +13,7 @@ import java.util.HashMap;
 
 public class SceneController {
 
-    public static SceneController instance;
+    private static SceneController instance;
     public Scene main;
     public Stage mainStage;
 
@@ -45,7 +45,7 @@ public class SceneController {
                 aux.setWidth(1375);
                 aux.setHeight(970);
                 aux.setTitle(n + " " + h);
-                ResultController r = (ResultController)fxmlLoader.getController();
+                ResultController r = fxmlLoader.getController();
                 r.setTitle(n + " " + h);
                 aux.show();
             }

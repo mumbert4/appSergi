@@ -4,16 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e78c309c-4d03-423a-b9e3-545a48fba31c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/ResultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/ResultController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sceneController/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sceneController/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sceneController/SceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sceneController/SceneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/controllers/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/controllers/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/controllers/result.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/controllers/result.fxml" afterDir="false" />
+    <list default="true" id="e78c309c-4d03-423a-b9e3-545a48fba31c" name="Changes" comment="Provam">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafico1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafico2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pruebapdf2.0.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Functions/CreatePDF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/ResultController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sceneController/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sceneController/SceneController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/mi_script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/controllers/main.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/controllers/result.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/320px-Complete_graph_K7.svg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/Marca_UPC_IDEAI_BLAU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/bicing_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/cidai_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/ideai_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/pedalem_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/upc_logo.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +45,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
     </option>
@@ -42,23 +64,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/miquel/Documentos/appSergi&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/miquel/Documentos/appSergi/lib/javafx-sdk-21.0.1/lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.49425286",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/javafx-sdk-21.0.1/lib" />
+      <recent name="$PROJECT_DIR$/lib/PDFBox/lib" />
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/controllers" />
       <recent name="$PROJECT_DIR$/src/main/java/mainScene" />
@@ -120,11 +155,46 @@
       <option name="presentableId" value="Default" />
       <updated>1698062542539</updated>
       <workItem from="1698103122242" duration="2264000" />
+      <workItem from="1698841224732" duration="2722000" />
+      <workItem from="1698847950463" duration="5024000" />
+      <workItem from="1698862914551" duration="10643000" />
     </task>
+    <task id="LOCAL-00001" summary="Provam">
+      <option name="closed" value="true" />
+      <created>1698882575014</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698882575014</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Provam">
+      <option name="closed" value="true" />
+      <created>1698882850484</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698882850484</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Provam" />
+    <option name="LAST_COMMIT_MESSAGE" value="Provam" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -36,3 +36,7 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Llibreries
+lib/
+lib/javafx-sdk-21.0.1/lib/libjfxwebkit.so
