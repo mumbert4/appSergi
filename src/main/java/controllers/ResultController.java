@@ -45,6 +45,67 @@ public class ResultController implements Initializable {
                     "<li>List item4</li>" +
                  "</ul>"
         );
+        sb.append("<ul>" +
+                "<li>List item1</li>" +
+                "<li>List item2</li>" +
+                "<li>List item3</li>" +
+                "<li>List item4</li>" +
+                "</ul>"
+        );sb.append("<ul>" +
+                "<li>List item1</li>" +
+                "<li>List item2</li>" +
+                "<li>List item3</li>" +
+                "<li>List item4</li>" +
+                "</ul>"
+        );sb.append("<ul>" +
+                "<li>List item1</li>" +
+                "<li>List item2</li>" +
+                "<li>List item3</li>" +
+                "<li>List item4</li>" +
+                "</ul>"
+        );sb.append("<ul>" +
+                "<li>List item1</li>" +
+                "<li>List item2</li>" +
+                "<li>List item3</li>" +
+                "<li>List item4</li>" +
+                "</ul>"
+        );sb.append("<ul>" +
+                "<li>List item1</li>" +
+                "<li>List item2</li>" +
+                "<li>List item3</li>" +
+                "<li>List item4</li>" +
+                "</ul>"
+        );sb.append("<ul>" +
+                "<li>List item1</li>" +
+                "<li>List item2</li>" +
+                "<li>List item3</li>" +
+                "<li>List item4</li>" +
+                "</ul>"
+        );sb.append("<ul>" +
+                "<li>List item1</li>" +
+                "<li>List item2</li>" +
+                "<li>List item3</li>" +
+                "<li>List item4</li>" +
+                "</ul>"
+        );sb.append("<ul>" +
+                "<li>List item1</li>" +
+                "<li>List item2</li>" +
+                "<li>List item3</li>" +
+                "<li>List item4</li>" +
+                "</ul>"
+        );sb.append("<ul>" +
+                "<li>List item1</li>" +
+                "<li>List item2</li>" +
+                "<li>List item3</li>" +
+                "<li>List item4</li>" +
+                "</ul>"
+        );sb.append("<ul>" +
+                "<li>List item1</li>" +
+                "<li>List item2</li>" +
+                "<li>List item3</li>" +
+                "<li>List item4</li>" +
+                "</ul>"
+        );
         text=sb.toString();
         System.out.printf(text);
         infoText.getEngine().loadContent(text);

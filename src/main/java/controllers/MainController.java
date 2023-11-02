@@ -69,6 +69,7 @@ public class MainController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         barrioChoice.getItems().add("01-el Raval");
+        barrioChoice.getItems().add("02-el Barri Gòtic");
         barrioChoice.getItems().add("03-la Barceloneta");
         barrioChoice.getItems().add("04-Sant Pere, Santa Caterina i la Ribera");
         barrioChoice.getItems().add("05-el Fort Pienc");
@@ -137,6 +138,8 @@ public class MainController implements Initializable {
         horarioChoice.getItems().add("Evening: from 18:00 h to 21:00 h");
         horarioChoice.getItems().add("LateEvening: from 21:00h to 24:00h");
         horarioChoice.getItems().add("Night: from 0:00 am to 6:00 am");
+
+        System.out.println(System.getProperty("user.dir"));
     }
 
 
@@ -146,7 +149,7 @@ public class MainController implements Initializable {
         System.out.println("Working Directory = " + System.getProperty("user.dir"));
 
         try{
-            String script= "src/main/python/mi_script.py";
+            String script= "mi_script.py";
             String command = "python3 " + script;
             ProcessBuilder processBuilder = new ProcessBuilder("bash", "-c", command);
             processBuilder.redirectErrorStream(true);
