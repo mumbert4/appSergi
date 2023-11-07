@@ -7,7 +7,6 @@ module sceneController {
     requires org.controlsfx.controls;
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
-    requires json.simple;
     requires java.desktop;
 
     opens sceneController to javafx.fxml;

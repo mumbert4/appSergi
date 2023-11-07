@@ -157,7 +157,8 @@ public class MainController implements Initializable {
     void runPython() throws InterruptedException, MalformedURLException {
         Process process = null;
         String wd = System.getProperty("user.dir");
-        String aux = wd+"/../Solucion/scripts/";
+        //String aux = wd+"/../Solucion/scripts/";
+        //String aux = "/home/miquel/Documentos/Solucion/scripts/";
         System.out.println("Working Directory = " + System.getProperty("user.dir"));
 
         try{
@@ -167,7 +168,8 @@ public class MainController implements Initializable {
                     System.out.println("Ejecutando script para: " + n + " " + h);
                     String script= "procesoPython.py --neighborhood \"" + n + "\" --timeSlot " + h + " --path " + pathToFile;
                     System.out.println(script);
-                    String command = "python3 " + aux +script ;
+                    //String command = "python3 " + aux + script ;
+                    String command = "python3 " + script;
                     ProcessBuilder processBuilder = new ProcessBuilder("bash", "-c", command);
                     processBuilder.redirectErrorStream(true);
 
@@ -204,11 +206,11 @@ public class MainController implements Initializable {
         System.out.println(selectedNeighbours);
         System.out.println(selectedHours);
         //CreatePDF.getInstance().createPDF();
-        if(selectedHours.size()== 0 || selectedNeighbours.size()==0){
+        if(selectedHours.size()== 0 || selectedNeighbours.size()==0 || pathToFile==null){
             System.out.println("Faltan datos para realizar el script");
         }
         else{
-            //runPython();
+            runPython();
             if(displayPlots.isSelected()){
                 SceneController.getInstance().createSearch(selectedNeighbours, selectedHours);
             }
