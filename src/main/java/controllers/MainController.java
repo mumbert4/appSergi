@@ -1,5 +1,6 @@
 package controllers;
 
+import Functions.CreatePDF;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -15,6 +16,7 @@ import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.ResourceBundle;
 
 public class MainController implements Initializable {
@@ -43,6 +45,8 @@ public class MainController implements Initializable {
     @FXML
     private RadioButton displayPlots;
 
+    public String pathToFile;
+    public HashMap<String,String> franjas;
     private ArrayList<String> selectedNeighbours;
     private ArrayList<String> selectedHours;
     @FXML
@@ -63,11 +67,17 @@ public class MainController implements Initializable {
             System.out.println("Fitxer CSV seleccionat: " + f.getAbsolutePath());
             fileInfo.setText("Fichero elegido:");
             file.setText(f.getName());
+            pathToFile = f.getAbsolutePath();
+            System.out.println(pathToFile);
         }
     }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+
+
+
+
         barrioChoice.getItems().add("01-el Raval");
         barrioChoice.getItems().add("02-el Barri Gòtic");
         barrioChoice.getItems().add("03-la Barceloneta");
@@ -146,22 +156,32 @@ public class MainController implements Initializable {
 
     void runPython() throws InterruptedException, MalformedURLException {
         Process process = null;
+        String wd = System.getProperty("user.dir");
+        String aux = wd+"/../Solucion/scripts/";
         System.out.println("Working Directory = " + System.getProperty("user.dir"));
 
         try{
-            String script= "mi_script.py";
-            String command = "python3 " + script;
-            ProcessBuilder processBuilder = new ProcessBuilder("bash", "-c", command);
-            processBuilder.redirectErrorStream(true);
 
-            process = processBuilder.start();
+            for(String n: selectedNeighbours){
+                for(String h: selectedHours){
+                    System.out.println("Ejecutando script para: " + n + " " + h);
+                    String script= "procesoPython.py --neighborhood \"" + n + "\" --timeSlot " + h + " --path " + pathToFile;
+                    System.out.println(script);
+                    String command = "python3 " + aux +script ;
+                    ProcessBuilder processBuilder = new ProcessBuilder("bash", "-c", command);
+                    processBuilder.redirectErrorStream(true);
 
-            InputStream inputStream = process.getInputStream();
-            BufferedReader reader= new BufferedReader(new InputStreamReader(inputStream));
-            String line;
-            while((line = reader.readLine())!=null){
-                System.out.println(line);
+                    process = processBuilder.start();
+
+                    InputStream inputStream = process.getInputStream();
+                    BufferedReader reader= new BufferedReader(new InputStreamReader(inputStream));
+                    String line;
+                    while((line = reader.readLine())!=null){
+                        System.out.println(line);
+                    }
+                }
             }
+
         }
         catch (IOException e){
             e.printStackTrace();
@@ -176,15 +196,29 @@ public class MainController implements Initializable {
     void okAction(ActionEvent event) throws IOException, InterruptedException {
 
         selectedNeighbours = new ArrayList<>(barrioChoice.getCheckModel().getCheckedItems());
-        selectedHours = new ArrayList<>(horarioChoice.getCheckModel().getCheckedItems());
+        selectedHours = new ArrayList<String>();
+        for(String s : horarioChoice.getCheckModel().getCheckedItems()){
+            int index = s.indexOf(':');
+            selectedHours.add(s.substring(0,index));
+        }
         System.out.println(selectedNeighbours);
         System.out.println(selectedHours);
+        //CreatePDF.getInstance().createPDF();
         if(selectedHours.size()== 0 || selectedNeighbours.size()==0){
             System.out.println("Faltan datos para realizar el script");
         }
         else{
-            runPython();
-            SceneController.getInstance().setScene("Result", selectedNeighbours, selectedHours);
+            //runPython();
+            if(displayPlots.isSelected()){
+                SceneController.getInstance().createSearch(selectedNeighbours, selectedHours);
+            }
+            if(generatePDF.isSelected()){
+                CreatePDF.getInstance().createPDF(selectedNeighbours,selectedHours);
+            }
+            if(unexpectedEvents.isSelected()){
+
+            }
+
         }
     }
 

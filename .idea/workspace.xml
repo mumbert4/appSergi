@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="appSergi:jar" />
@@ -11,9 +14,14 @@
   <component name="ChangeListManager">
     <list default="true" id="e78c309c-4d03-423a-b9e3-545a48fba31c" name="Changes" comment="Provam">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pruebapdf2.0.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pruebapdf2.0.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Functions/CreatePDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Functions/CreatePDF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controllers/ResultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/ResultController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/python/mi_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/appSergi_jar/mi_script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sceneController/SceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sceneController/SceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/controllers/result.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/controllers/result.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +40,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -45,7 +60,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
+    "Downloaded.Files.Path.Enabled": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -54,16 +69,16 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/miquel/IdeaProjects/appSergi/lib/javafx-sdk-21.0.1/lib/libjfxmedia.so",
+    "last_opened_file_path": "/home/miquel/Documentos/appSergi/lib/json",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.11653813",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -153,6 +168,10 @@
       <workItem from="1698841224732" duration="2722000" />
       <workItem from="1698847950463" duration="5024000" />
       <workItem from="1698862914551" duration="10643000" />
+      <workItem from="1699219976955" duration="6631000" />
+      <workItem from="1699266606557" duration="5236000" />
+      <workItem from="1699311901528" duration="1817000" />
+      <workItem from="1699313950662" duration="10661000" />
     </task>
     <task id="LOCAL-00001" summary="Provam">
       <option name="closed" value="true" />
