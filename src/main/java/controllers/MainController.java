@@ -208,7 +208,7 @@ public class MainController implements Initializable {
             System.out.println("Faltan datos para realizar el script");
         }
         else{
-            //runPython();
+            runPython();
             if(displayPlots.isSelected()){
                 SceneController.getInstance().createSearch(selectedNeighbours, selectedHours);
             }
