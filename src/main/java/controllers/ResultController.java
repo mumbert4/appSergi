@@ -45,8 +45,6 @@ public class ResultController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle){
         System.out.println("Iniciando nueva escena");
-//        expectedGraph.setImage(new Image("file:" +System.getProperty("user.dir")+"/grafico1.png"));
-//        observedGraph.setImage(new Image("file:" +System.getProperty("user.dir")+"/grafico2.png"));
 
 
     }
@@ -54,16 +52,15 @@ public class ResultController implements Initializable {
     public void setId(String id){
         this.id = id;
         System.out.println("Id: " + id);
-//        expectedGraph.setImage(new Image("file:" +System.getProperty("user.dir")+"/grafico1.png"));
-//        observedGraph.setImage(new Image("file:" +System.getProperty("user.dir")+"/grafico2.png"));
         LocalDate currentDate = LocalDate.now();
 
         // Crea un formateador para convertir la fecha en una cadena en formato "yyyyMMdd"
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMdd");
-
         // Convierte la fecha en una cadena en formato "yyyyMMdd"
         String date = currentDate.format(formatter);
         System.out.println("Date: " + date);
+
+
         String path =System.getProperty("user.dir")+"/../Output/"+ date;
         System.out.println("Path:" + path);
         expectedGraph.setImage(new Image("file:" +path+"/Graficos_average_"+id+".png"));
@@ -102,11 +99,7 @@ public class ResultController implements Initializable {
         }
 
     }
-    @FXML
-    void downloadPDF(ActionEvent event){
-        System.out.printf("Download pdf");
-        CreatePDF.getInstance().createPDF();
-    }
+
 
     public void setTitle(String aux){
         title.setText(aux);

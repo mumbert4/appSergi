@@ -14,12 +14,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e78c309c-4d03-423a-b9e3-545a48fba31c" name="Changes" comment="Provam">
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/appSergi_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/appSergi_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/appSergi_jar/appSergi.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Functions/CreatePDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Functions/CreatePDF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controllers/ResultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/ResultController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/controllers/result.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/controllers/result.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +66,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/miquel/IdeaProjects/appSergi/lib/json/lib",
+    "last_opened_file_path": "/home/miquel/IdeaProjects/appSergi/lib/PDFBox/lib",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.29315478",
     "settings.editor.selected.configurable": "configurable.group.build",

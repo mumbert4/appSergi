@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="appSergi:jar">
+  <artifact type="jar" build-on-make="true" name="appSergi:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/appSergi_jar</output-path>
     <root id="archive" name="appSergi.jar">
       <element id="directory" name="META-INF">
@@ -36,13 +36,15 @@
       <element id="extracted-dir" path="$PROJECT_DIR$/lib/PDFBox/lib/commons-logging-1.2.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/kordamp/ikonli/ikonli-core/12.3.1/ikonli-core-12.3.1.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/vladsch/javafx-webview-debugger/javafx-webview-debugger/0.8.6/javafx-webview-debugger-0.8.6.jar" path-in-jar="/" />
-      <element id="library" level="application" name="PDFBox" />
+      <element id="library" level="application" name="sdk-javafx" />
       <element id="library" level="project" name="sdk-javafx" />
       <element id="library" level="project" name="PDFBox" />
       <element id="file-copy" path="$PROJECT_DIR$/lib/javafx-sdk-21.0.1/lib/libjfxmedia.so" />
       <element id="file-copy" path="$PROJECT_DIR$/lib/javafx-sdk-21.0.1/lib/libjfxwebkit.so" />
       <element id="library" level="project" name="json" />
       <element id="library" level="application" name="json" />
+      <element id="library" level="project" name="jdk" />
+      <element id="library" level="application" name="jdk" />
     </root>
   </artifact>
 </component>
